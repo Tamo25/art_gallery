@@ -138,6 +138,7 @@ body {
   width: 100vw;
   background-image: url(/assets/mobile/image-map.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .map button {
@@ -221,6 +222,7 @@ body {
 @media (min-width: 768px) {
   body {
     background-image: url(/assets/tablet/image-map.png);
+    background-size: cover;
   }
   .map {
     margin-left: 35px;
@@ -265,6 +267,7 @@ body{
   body {
     background-size: cover;
     background-image: url(/assets/desktop/image-map.png);
+    
   }
   .map {
     margin-left: 156px;
